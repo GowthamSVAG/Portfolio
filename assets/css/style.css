@@ -1049,7 +1049,9 @@ html {
 .rowcard{
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
 }
 .card {
   justify-content: center;
@@ -1061,7 +1063,7 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.2s;
-  left: 100px;;
+  /* left: 100px;; */
 }
 
 .card:hover {
